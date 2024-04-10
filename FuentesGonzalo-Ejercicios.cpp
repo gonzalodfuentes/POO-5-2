@@ -10,11 +10,11 @@ int main()
 	switch(menuopcion)
 	{
 		/* 1
-		El director de una escuela est· organizando un viaje de estudios, 
-		y requiere determinar cu·nto debe cobrar a cada alumno y cu·nto debe pagar a la compaÒÌa de viajes por el servicio. 
+		El director de una escuela est√° organizando un viaje de estudios, 
+		y requiere determinar cu√°nto debe cobrar a cada alumno y cu√°nto debe pagar a la compa√±√≠a de viajes por el servicio. 
 		La forma de cobrar es la siguiente: 
-		Si son 100 alumnos o m·s, el costo por cada alumno es de $ 500, de 50 a 99 alumnos, el costo es de $ 400  y  de 30 a 49, de $ 300. 
-		Pero si son menos de 30, el costo del alquiler del micro es de $ 6000.- sin importar el n˙mero de alumnos. 
+		Si son 100 alumnos o m√°s, el costo por cada alumno es de $ 500, de 50 a 99 alumnos, el costo es de $ 400  y  de 30 a 49, de $ 300. 
+		Pero si son menos de 30, el costo del alquiler del micro es de $ 6000.- sin importar el n√∫mero de alumnos. 
 		Realice un algoritmo que permita determinar el pago por el alquiler del micro y lo que debe pagar cada alumno por el viaje.
 		*/
 		case 1:
@@ -54,9 +54,9 @@ int main()
 		
 		
 		/* 2
-		Un vendedor recibe un sueldo base m·s un 10% extra por comisiÛn de sus ventas, 
-		el vendedor desea saber cu·nto dinero obtendr· por concepto de comisiones por las tres ventas que realiza en el mes,
-		y el total que recibir· en el mes tomando en cuenta su sueldo base y comisiones.
+		Un vendedor recibe un sueldo base m√°s un 10% extra por comisi√≥n de sus ventas, 
+		el vendedor desea saber cu√°nto dinero obtendr√° por concepto de comisiones por las tres ventas que realiza en el mes,
+		y el total que recibir√° en el mes tomando en cuenta su sueldo base y comisiones.
 		*/
 		case 2:
 		{
@@ -85,11 +85,11 @@ int main()
 		
 		
 		/* 3
-		Un alumno desea saber cu·l ser· su calificaciÛn final en la materia de Algoritmos. 
-		Dicha calificaciÛn se compone de los siguientes porcentajes:
+		Un alumno desea saber cu√°l ser√° su calificaci√≥n final en la materia de Algoritmos. 
+		Dicha calificaci√≥n se compone de los siguientes porcentajes:
 		55% del promedio de sus tres calificaciones parciales.
-		30% de la calificaciÛn del examen final.
-		15% de la calificaciÛn de un trabajo final.
+		30% de la calificaci√≥n del examen final.
+		15% de la calificaci√≥n de un trabajo final.
 		*/
 		case 3:
 		{
@@ -132,7 +132,7 @@ int main()
 		
 		
 		/* 4
-		Escribir un programa que imprima todos los n˙meros pares entre dos n˙meros que se le pida al usuario.
+		Escribir un programa que imprima todos los n√∫meros pares entre dos n√∫meros que se le pida al usuario.
 		*/
 		case 4:
 		{
@@ -174,9 +174,9 @@ int main()
 		
 		
 		/* 5
-		Una persona se encuentra en el kilÛmetro 70 de una carretera, otra se encuentra en el km 150, 
+		Una persona se encuentra en el kil√≥metro 70 de una carretera, otra se encuentra en el km 150, 
 		los coches tienen sentido opuesto y tienen la misma velocidad. 
-		Realizar un programa para determinar en quÈ kilÛmetro de esa carretera se encontrar·n.
+		Realizar un programa para determinar en qu√© kil√≥metro de esa carretera se encontrar√°n.
 		*/
 		case 5:
 		{
