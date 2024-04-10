@@ -20,6 +20,11 @@ int main()
 	{
 		printf("%d\n", n);
 		
+		if (n == 2)
+		{
+			printf("1\n");
+		}
+		
 		if ((n % 2) == 0)
 		{
 			n = n / 2;
