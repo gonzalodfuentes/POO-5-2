@@ -2,18 +2,18 @@
 
 int main()
 {
-	int menuopcion;
+     int menuopcion;
 
-	printf("Eliga una opcion: ");
-	scanf("%d", &menuopcion);
+     printf("Eliga una opcion: ");
+     scanf("%d", &menuopcion);
 
-	switch(menuopcion)
-	{
-		/* 1
-		Enviar un mensaje de texto o whatsApp desde el teléfono celular. 
-		Se deberá verificar que haya crédito o servicio de Wifi para poder realizar la operación, según corresponda.
-		*/
-		case 1:
+     switch(menuopcion)
+     {
+	/* 1
+	Enviar un mensaje de texto o whatsApp desde el teléfono celular. 
+	Se deberá verificar que haya crédito o servicio de Wifi para poder realizar la operación, según corresponda.
+	*/
+	case 1:
         {
             int cre, mow, env;
             char men[100];
@@ -65,17 +65,17 @@ int main()
                 printf("\n----------------------------------------------\n");
         	}
 			
-			break;
+		break;
         }
 
 
-		/* 2 
-		Para ingresar a un curso de capacitación se solicita a los empleados aprobar dos exámenes. 
-		Ingresarán aquellos que hayan logrado como mínimo 7 y 8 puntos respectivamente. 
-		Se deberá mostrar en pantalla la palabra “Apto” o “No apto”.
-		*/
-		case 2:
-		{
+	/* 2 
+	Para ingresar a un curso de capacitación se solicita a los empleados aprobar dos exámenes. 
+	Ingresarán aquellos que hayan logrado como mínimo 7 y 8 puntos respectivamente. 
+	Se deberá mostrar en pantalla la palabra “Apto” o “No apto”.
+	*/
+	case 2:
+	{
             int n1, n2;
 
             printf("Cuanto te sacaste en los 2 examenes?: ");
@@ -93,12 +93,12 @@ int main()
             break;
         }
 
-		/* 3
-		Se ingresa el sueldo de un trabajador y se aplica un aumento del 15% si su sueldo es inferior a $8.000 y 12% en caso contrario. 
-		Luego, mostrar el nuevo sueldo del trabajador.
-		*/
-		case 3:
-		{
+	/* 3
+	Se ingresa el sueldo de un trabajador y se aplica un aumento del 15% si su sueldo es inferior a $8.000 y 12% en caso contrario. 
+	Luego, mostrar el nuevo sueldo del trabajador.
+	*/
+	case 3:
+	{
             float s;
 
             printf("Cual es tu sueldo? \n");
@@ -117,5 +117,5 @@ int main()
 
             break;
         }
-	}
+     }
 }
