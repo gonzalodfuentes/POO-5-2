@@ -1,3 +1,5 @@
+// HECHO CON JUAN ROJAS
+
 // DECLARAMOS LAS BIBLIOTECAS
 #include <stdio.h>
 #include <stdlib.h>
