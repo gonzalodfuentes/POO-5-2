@@ -39,7 +39,7 @@ int z = 0;
 // FUNCION PARA CUANDO CAIGAMOS AL AGUA
 void perdiste() 
 {
-    printf("¡Caiste al agua!\n");
+    printf("Â¡Caiste al agua!\n");
     printf("Perdiste :(\n");
     printf("Reiniciando...");
     Sleep(3000);
@@ -195,7 +195,7 @@ int empezarJugar()
 
         if (pf == tf && pc == tc) 
 		{
-            for (i = 0; i < filas; i++) 			//Algoritmo para detectar si tocó el tesoro o el agua
+            for (i = 0; i < filas; i++) 			//Algoritmo para detectar si tocÃ³ el tesoro o el agua
 			{
                 for (j = 0; j < columnas; j++) 
 				{
@@ -224,7 +224,7 @@ int empezarJugar()
         }
     }
 
-    printf("Se te acabaron los movimientos... ¡mejor suerte la proxima vez!\n");
+    printf("Se te acabaron los movimientos... Â¡mejor suerte la proxima vez!\n");
     return 0;
 }
 
